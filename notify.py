@@ -50,7 +50,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowTitle.Font = Enum.Font.GothamSemibold
     WindowTitle.Text = nofdebug.Title
     WindowTitle.TextColor3 = Color3.fromRGB(220, 220, 220)
-    WindowTitle.TextSize = 12.000
+    WindowTitle.TextSize = 15.000
     WindowTitle.TextXAlignment = Enum.TextXAlignment.Left
     
     WindowDescription.Name = "WindowDescription"
@@ -65,7 +65,7 @@ function Nofitication:Notify(nofdebug, middledebug, all)
     WindowDescription.Font = Enum.Font.GothamSemibold
     WindowDescription.Text = nofdebug.Description
     WindowDescription.TextColor3 = Color3.fromRGB(180, 180, 180)
-    WindowDescription.TextSize = 12.000
+    WindowDescription.TextSize = 15.000
     WindowDescription.TextWrapped = true
     WindowDescription.TextXAlignment = Enum.TextXAlignment.Left
     WindowDescription.TextYAlignment = Enum.TextYAlignment.Top
